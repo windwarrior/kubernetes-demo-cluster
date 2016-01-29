@@ -31,10 +31,10 @@ coreos:
              EnvironmentFile=/etc/kubernetes.env
              ExecStart=/opt/bin/kubectl create -f /home/core/inaetics-demo/k8s/ace-provisioning-service.json
              ExecStart=/opt/bin/kubectl create -f /home/core/inaetics-demo/k8s/ace-provisioning-controller.json
-             ExecStart=/opt/bin/kubectl create -f /home/core/inaetics-demo/k8s/ails-server.json
-
+             # ExecStart=/opt/bin/kubectl create -f /home/core/inaetics-demo/k8s/ails-server.json
+             # ExecStart=/opt/bin/kubectl create -f /home/core/inaetics-demo/k8s/ails-test.json
              ExecStop=/opt/bin/kubectl delete -f /home/core/inaetics-demo/k8s/ace-provisioning-controller.json
              ExecStop=/opt/bin/kubectl delete -f /home/core/inaetics-demo/k8s/ace-provisioning-service.json
              ExecStop=/opt/bin/kubectl delete -f /home/core/inaetics-demo/k8s/ails-server.json
-
+             ExecStop=/opt/bin/kubectl delete -f /home/core/inaetics-demo/k8s/ails-test.json
 ###EOF###

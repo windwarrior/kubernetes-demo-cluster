@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<repository increment='1450434216987' name='empty' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+<repository increment='1453219899192' name='empty' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
   <resource>
     <capability namespace='osgi.identity'>
       <attribute name='osgi.identity' value='org.inaetics.demonstrator.java_impl.utilization'/>
@@ -46,9 +46,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='7449afb5714bb1822f8c0c9aeff1826cbbdf135b4b6867f31b9f8116be844a1d'/>
+      <attribute name='osgi.content' value='915d21243ef1c60d57296ce42a0c7bcfb34d4a91e233c3afb93160b6d7420aa3'/>
       <attribute name='url' value='org.inaetics.ails.api.client.controllers.users-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4533'/>
+      <attribute name='size' type='Long' value='4534'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -61,13 +61,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.users'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.controllers.users'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -248,9 +248,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='5a11e32f9a288038e45d908117e2d6e7a16c6e9d42dc9106082c7f271874bc25'/>
+      <attribute name='osgi.content' value='5c7ac9c6a8f0ac741d68df22321624230ec7f02b71362bcb9aa50e681c4650d4'/>
       <attribute name='url' value='org.inaetics.ails.api.client.controllers.learning-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4507'/>
+      <attribute name='size' type='Long' value='4506'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -263,13 +263,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.learning'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.controllers.learning'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -625,9 +625,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='99654b8487098feb64c332ac6b1c8002e2ac8f1733372bad89cc38234398a96d'/>
+      <attribute name='osgi.content' value='1a58e2907527843e62c5690c6151f755715fd2beae9ecb6c84294575a81edac7'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.controllers.learning-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='11417'/>
+      <attribute name='size' type='Long' value='11406'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -640,7 +640,7 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.learning'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.controllers.learning'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
@@ -649,19 +649,19 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.learning)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.learning)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.wifi_profile_factory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.wifi_profile_factory)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.location_profile.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.location_profile.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -677,9 +677,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='217f4ed32c1de298466bdfe891c393c7b23eedfffa46f79b7397aeba729f0a1c'/>
+      <attribute name='osgi.content' value='260b486268cfabbc3ca4b079f018ecb137e550355b4f8a8150fa3c036bb64c27'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.streaming_profile.service-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='13529'/>
+      <attribute name='size' type='Long' value='13789'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -716,7 +716,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -726,9 +726,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='a02734ace7f49a14026999e198249e60aaf3b39d13fb8df40b58bcba85ae03c4'/>
+      <attribute name='osgi.content' value='a2a531f4602c92967a7c90e8174c3daef2b5577470ab030acb5ac85005aa40d9'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.location_profile.miner-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='8328'/>
+      <attribute name='size' type='Long' value='8375'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -739,6 +739,9 @@
       <attribute name='osgi.wiring.host' value='org.inaetics.ails.impl.server.location_profile.miner'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
@@ -755,7 +758,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -918,9 +921,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='75455fa771a942190e6671b078dc0dbfeb0d5acfadc4ad59219d1a94308e8b34'/>
+      <attribute name='osgi.content' value='ae9034874bb55a4e7b63278c33d95d68c237670174c69a8ec44cc6f4f6f7e66a'/>
       <attribute name='url' value='org.inaetics.ails.api.client.controllers.streaming_wifi_profiles-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4644'/>
+      <attribute name='size' type='Long' value='4643'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -933,7 +936,7 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.streaming_wifi_profiles'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.controllers.streaming_wifi_profiles'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
     </capability>
@@ -1068,9 +1071,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='89e953d9f08c0b9c15ce0709345d1b8614105f48c64c37b33a1428fc5f9c44b0'/>
+      <attribute name='osgi.content' value='55dabbc3cfa6e51d14736e0df9ef4541efe3699e18d319acd7755f22de5993da'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.controllers.users-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9195'/>
+      <attribute name='size' type='Long' value='9180'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -1083,22 +1086,22 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.users'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.controllers.users'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.users)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.users)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.user.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.user.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -1114,9 +1117,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='96927916996a26d0ec8044657b286af783c8d9d9764cc7e6f384b4589c734373'/>
+      <attribute name='osgi.content' value='83d2ad8d4277d3390250d7badf98341b8cf06edd8783df526aab60267058088b'/>
       <attribute name='url' value='org.inaetics.ails.api.server.user.extended_datastore-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4660'/>
+      <attribute name='size' type='Long' value='4712'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -1132,13 +1135,16 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.user.extended_datastore'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -1266,9 +1272,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='2444bf3b6a5ae9c96f3b3f5b8489836482e566f9fa45dd51d77fc130ecab8713'/>
+      <attribute name='osgi.content' value='3b5658d595cba8ef16156d480037526e7115598ea96a09ab75020c7a6afda758'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.user.extended_datastore-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='10412'/>
+      <attribute name='size' type='Long' value='10419'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -1284,7 +1290,7 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.server.user.extended_datastore'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
@@ -1308,7 +1314,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -1486,7 +1492,7 @@
       <attribute name='type' value='file'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='6249777023d10558ca03ddbefc2e7ec947dc63d976fe6af88d114c873694d667'/>
+      <attribute name='osgi.content' value='fe5197743407b8c62e6d2e98d038d84b75125fb4ba5cf30ac6c0860bdf1462ba'/>
       <attribute name='url' value='index.xml'/>
       <attribute name='size' type='Long' value='73728'/>
       <attribute name='mime' value='application/xml'/>
@@ -1716,27 +1722,6 @@
   </resource>
   <resource>
     <capability namespace='osgi.identity'>
-      <attribute name='osgi.identity' value='apache_celix_shell_tui'/>
-      <attribute name='type' value='osgi.bundle'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
-    </capability>
-    <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='4b06665c60323cc6d2cab6cbd25e7614df255bbf7be8f1994ae25af7b5d548c0'/>
-      <attribute name='url' value='apache_celix_shell_tui-1.0.0.jar'/>
-      <attribute name='size' type='Long' value='7375'/>
-      <attribute name='mime' value='application/vnd.osgi.bundle'/>
-    </capability>
-    <capability namespace='osgi.wiring.bundle'>
-      <attribute name='osgi.wiring.bundle' value='apache_celix_shell_tui'/>
-      <attribute name='bundle-version' type='Version' value='1.0.0'/>
-    </capability>
-    <capability namespace='osgi.wiring.host'>
-      <attribute name='osgi.wiring.host' value='apache_celix_shell_tui'/>
-      <attribute name='bundle-version' type='Version' value='1.0.0'/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace='osgi.identity'>
       <attribute name='osgi.identity' value='org.apache.felix.shell.remote'/>
       <attribute name='type' value='osgi.bundle'/>
       <attribute name='version' type='Version' value='1.1.2'/>
@@ -1771,6 +1756,27 @@
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.util.tracker)(version&gt;=1.3.0))'/>
     </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='apache_celix_shell_tui'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='1ee51ef125f5070fc63974977998d6fc0e7219575579822aa6b82519dad154dd'/>
+      <attribute name='url' value='apache_celix_shell_tui-1.0.0.jar'/>
+      <attribute name='size' type='Long' value='11597'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='apache_celix_shell_tui'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='apache_celix_shell_tui'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0'/>
+    </capability>
   </resource>
   <resource>
     <capability namespace='osgi.identity'>
@@ -1851,9 +1857,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='4f0df97b3dc00946dcb132f34a2c04e7f340e8f80c57970715cab3602296d7e9'/>
+      <attribute name='osgi.content' value='ff952f106eb9f9da3d0344aac1f2dc8efcddcc3899b4d4e91485d241ff71afc7'/>
       <attribute name='url' value='org.inaetics.ails.api.client.controllers.device-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4398'/>
+      <attribute name='size' type='Long' value='4397'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -1866,13 +1872,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.device'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.controllers.device'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -2064,9 +2070,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='4b1bc991efa3000292936e4527abdadeef732ca1202ed2bfe0e7ed7d45246490'/>
+      <attribute name='osgi.content' value='0909004bf3475f7dfb4d4a2e2b94f3f160270c92d1fbd9203223a333de7f364d'/>
       <attribute name='url' value='org.inaetics.ails.api.client.model.wifi_profile_factory-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4490'/>
+      <attribute name='size' type='Long' value='4489'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2079,13 +2085,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.model.wifi_profile_factory'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.model.wifi_profile_factory'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -2269,9 +2275,9 @@
       <attribute name='version' type='Version' value='0.0.1'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='4287c5f83df688252584bcffb72ff34888ebc667fdb34df76f8b1accb96769bc'/>
+      <attribute name='osgi.content' value='8d1963bddc4115371400e55694cfb37af7c69433b77a0d3404930ea32698500f'/>
       <attribute name='url' value='apache_celix_rs_topology_manager-0.0.1.jar'/>
-      <attribute name='size' type='Long' value='22587'/>
+      <attribute name='size' type='Long' value='47777'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2311,6 +2317,51 @@
     </capability>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.inaetics.ails.impl.server.call_user_test'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='25509fb886711ceefed81e7ffd851761ef0902b956e57a2f9b6445db83605cf0'/>
+      <attribute name='url' value='org.inaetics.ails.impl.server.call_user_test-0.0.0.jar'/>
+      <attribute name='size' type='Long' value='9814'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.inaetics.ails.impl.server.call_user_test'/>
+      <attribute name='bundle-version' type='Version' value='0.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.inaetics.ails.impl.server.call_user_test'/>
+      <attribute name='bundle-version' type='Version' value='0.0.0'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.location_profile.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.streaming_profile.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.user.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -2401,9 +2452,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='cf5f7fa3de641987fa08d1bfd9fc1c122a9ce62388602e49efc32c42bb10796c'/>
+      <attribute name='osgi.content' value='63da81a4233bd4b29cf97e2b273ba13c5fa61a021ed03088f44c54d911dc4965'/>
       <attribute name='url' value='org.inaetics.ails.api.server.user.service-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4616'/>
+      <attribute name='size' type='Long' value='4670'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2419,13 +2470,16 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.user.service'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -2503,9 +2557,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='352e34c2aed31567009cca5c932821fb8660702dd628f2e67111f3266a7350cb'/>
+      <attribute name='osgi.content' value='9caed0aba1c51107fdeacd3b6f73d01fc0d8830d956ec50269e18a7f59cf25ef'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.location_profile.service-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9324'/>
+      <attribute name='size' type='Long' value='9568'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2542,7 +2596,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -2684,7 +2738,7 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='a96ed3cbdb479593947b8a2e93d17e48899137f476ab83f15635cadae02ee50b'/>
+      <attribute name='osgi.content' value='2671a7aad04f29a4078880ba8299d9eba028fad4057d7df178b1075f222389cb'/>
       <attribute name='url' value='org.inaetics.ails.api.server.streaming_profile.service-0.1.0.jar'/>
       <attribute name='size' type='Long' value='4529'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
@@ -2708,7 +2762,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -2748,9 +2802,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='46d865890faa6735c59ba76b6cf6358bbc65422aa0e88a64cd64a1321050cfbe'/>
+      <attribute name='osgi.content' value='f1bf5f7b219c20132cb874462bc3022b7d6755e296c3df16b9ca1ebf9219e648'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.location.provider-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9077'/>
+      <attribute name='size' type='Long' value='9213'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2766,8 +2820,11 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.server.location.provider'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
@@ -2784,7 +2841,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -2881,9 +2938,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='f25b5e8d553933fe6dc64401ab9b4fa135b21b61a4fe5371ee06ca1bf804a2fd'/>
+      <attribute name='osgi.content' value='129ea7aea0de6052e9e5360ba3b64a33d759a618bda091c4705a9dde1d028060'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.controllers.location-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='8881'/>
+      <attribute name='size' type='Long' value='8870'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2896,22 +2953,22 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.location'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.controllers.location'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.location)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.location)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.view)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.view)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -2948,9 +3005,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='9db60c733ae8c742fcca681ec8f1ea1dc7109d449660679543442fd781b14279'/>
+      <attribute name='osgi.content' value='9902a3fc64b27a4b45099f18dfc4279b48b3642951622c80fdf103cb16d167e2'/>
       <attribute name='url' value='org.inaetics.ails.api.client.controllers.location-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4340'/>
+      <attribute name='size' type='Long' value='4339'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -2963,13 +3020,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.location'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.controllers.location'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -3003,9 +3060,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='dd8d2d4ac4cc3005264632835648f22989a5d8c1b6040e5475c5efb29ccdf925'/>
+      <attribute name='osgi.content' value='1bd9cac431c9f0f6ea507ae6d56b8b7a67c4d58f738134127d8248337b30cb45'/>
       <attribute name='url' value='org.inaetics.ails.api.server.user.datastore-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4528'/>
+      <attribute name='size' type='Long' value='4579'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -3021,13 +3078,16 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.user.datastore'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -3037,9 +3097,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='f23bdbdefbf0d3d03fac1742f09ff6cf2f5ec7cd7c33110935a68ff25672a8fd'/>
+      <attribute name='osgi.content' value='0b98ad569ac6423698a2537af4a2b4a38adf4e5e1fccd93840f7d842541990c8'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.model.wifi_profile_factory-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9876'/>
+      <attribute name='size' type='Long' value='9880'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -3052,19 +3112,19 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.model.wifi_profile_factory'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.model.wifi_profile_factory'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.wifi_profile_factory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.wifi_profile_factory)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -3511,6 +3571,75 @@
   </resource>
   <resource>
     <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='682c9a41b25f557e1f2a18846c2c40e1a41daec19164ffdccfec5ad8312b73da'/>
+      <attribute name='url' value='com.fasterxml.jackson.core.jackson-core-2.3.2.jar'/>
+      <attribute name='size' type='Long' value='199553'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.io'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.json'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.util'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.base'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.sym'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.type'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.format'/>
+      <attribute name='version' type='Version' value='2.3.2'/>
+      <attribute name='bundle-symbolic-name' value='com.fasterxml.jackson.core.jackson-core'/>
+      <attribute name='bundle-version' type='Version' value='2.3.2'/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
       <attribute name='osgi.identity' value='com.google.guava'/>
       <attribute name='type' value='osgi.bundle'/>
       <attribute name='version' type='Version' value='18.0.0.rc2'/>
@@ -3649,9 +3778,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='c76abbc6d06943b5bc23073813960fdccb8d710cb83677f4edd95657e199ab63'/>
+      <attribute name='osgi.content' value='36914f3903755db979b4ea9a326f41fdde5ba17fd527a62f6e02e1a73a42c275'/>
       <attribute name='url' value='org.inaetics.remote.admin.wiring.jar'/>
-      <attribute name='size' type='Long' value='1510531'/>
+      <attribute name='size' type='Long' value='2857593'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -3858,9 +3987,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='59cf8e0ca147915055b3990170c015900495e670ab98c4c0494e82045d6655d8'/>
+      <attribute name='osgi.content' value='7eab3f60ad50fd7b885e4a822d7409c91d8d6a8270af03d72123afafe4ffac58'/>
       <attribute name='url' value='org.inaetics.ails.api.server.location_profile.service-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4484'/>
+      <attribute name='size' type='Long' value='4485'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -3882,7 +4011,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -3961,9 +4090,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='5114b710e9e3682aad9b784214690f0f7943acfe8c0b41f92b261920e03c52ea'/>
+      <attribute name='osgi.content' value='3848ca40a81789a979e53b905da5346cf9ee437728937b123706b0d9f06bbc28'/>
       <attribute name='url' value='org.inaetics.ails.api.server.location.provider-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4413'/>
+      <attribute name='size' type='Long' value='4467'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -3979,13 +4108,16 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.location.provider'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -4057,9 +4189,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='7226816a58370ba79150b680a6396de4fa7b2a0f63f1156f61feebd96dc7d8d1'/>
+      <attribute name='osgi.content' value='0741d317e614f7cec400474e0792f5d354e9c727be173332b667257c2de53e96'/>
       <attribute name='url' value='org.inaetics.ails.api.server.database-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='8467'/>
+      <attribute name='size' type='Long' value='8512'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -4075,13 +4207,16 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.database'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -4230,9 +4365,9 @@
       <attribute name='version' type='Version' value='1.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='1845d092d20b1a51d365de4e5b3b66b3de98725f8200ed2ba31e624f95f8e66f'/>
+      <attribute name='osgi.content' value='0ae74c400a3a450780e15924c995c8244db782387ba7b72b1bffa81ef7d2c1ba'/>
       <attribute name='url' value='apache_celix_shell-1.0.0.jar'/>
-      <attribute name='size' type='Long' value='32503'/>
+      <attribute name='size' type='Long' value='36897'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -4251,9 +4386,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='5cf3843f014b6d3a9242111e7addf8a01d352212e1dedb02c3ab9b9dc1ff291e'/>
+      <attribute name='osgi.content' value='a5b57a92ec5f3357f1fe5a00838861f3e981e8ec6bb62649783ad034d68a5c94'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.controllers.streaming_wifi_profiles-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='12050'/>
+      <attribute name='size' type='Long' value='12033'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -4266,7 +4401,7 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.streaming_wifi_profiles'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.controllers.streaming_wifi_profiles'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
     </capability>
@@ -4274,22 +4409,22 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.streaming_wifi_profiles)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.streaming_wifi_profiles)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.wifi_profile_factory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.wifi_profile_factory)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.streaming_profile.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.streaming_profile.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -4439,9 +4574,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='3eda8a928654707d50c0396ae13abeff89b8f60097feeb7322d3b0f01c165594'/>
+      <attribute name='osgi.content' value='a4d1814308c7db245917e11624874b1f267f8244c30873f66f9144791190bd4b'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.controller.device-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='10443'/>
+      <attribute name='size' type='Long' value='10440'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -4454,7 +4589,7 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.controllers.device'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.controller.device'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
@@ -4463,19 +4598,19 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.device)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.device)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.user.service)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.user.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -4557,9 +4692,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='b0106cb6a8ce144e3117621dfbbb1784db372af5f9c8a9a9d90086e27e5d17be'/>
+      <attribute name='osgi.content' value='95aa94e264b7ed46ef9307af25d1f0daa7a886f5f2cbb25cc6678f731fc32d6d'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.database-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='22115'/>
+      <attribute name='size' type='Long' value='22230'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -4575,7 +4710,7 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.server.database'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
@@ -4593,7 +4728,44 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.inaetics.ails.api.common.model'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='628e380ed2aef825d69165e8bb35efcec08690536f0ffca8ae9ba53f39073ac7'/>
+      <attribute name='url' value='org.inaetics.ails.api.common.model-0.1.0.jar'/>
+      <attribute name='size' type='Long' value='24598'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.inaetics.ails.api.common.model'/>
+      <attribute name='bundle-version' type='Version' value='0.1.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.inaetics.ails.api.common.model'/>
+      <attribute name='bundle-version' type='Version' value='0.1.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.common.model'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.common.model'/>
+      <attribute name='bundle-version' type='Version' value='0.1.0'/>
+      <directive name='uses' value='com.fasterxml.jackson.annotation'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.fasterxml.jackson.annotation)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -4603,9 +4775,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='59ac4f3f14a7dc7d282348727d24c7fdd4c57b2c182b3029b7efc937cdc37d51'/>
+      <attribute name='osgi.content' value='12ef1d8fcc1598af96428c8fa4830001d3eac38167e4151e057e678ad5b20078'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.buffer-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='8859'/>
+      <attribute name='size' type='Long' value='8904'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -4621,6 +4793,7 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.server.buffer'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
+      <directive name='uses' value='com.google.common.base'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
@@ -4638,40 +4811,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
-    </requirement>
-  </resource>
-  <resource>
-    <capability namespace='osgi.identity'>
-      <attribute name='osgi.identity' value='org.inaetics.ails.api.common.model'/>
-      <attribute name='type' value='osgi.bundle'/>
-      <attribute name='version' type='Version' value='0.1.0'/>
-    </capability>
-    <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='279b74bd9fd32c28dbd9fd9325002b41dd3cea8d9cadb535c2707e27ca2269dd'/>
-      <attribute name='url' value='org.inaetics.ails.api.common.model-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='20534'/>
-      <attribute name='mime' value='application/vnd.osgi.bundle'/>
-    </capability>
-    <capability namespace='osgi.wiring.bundle'>
-      <attribute name='osgi.wiring.bundle' value='org.inaetics.ails.api.common.model'/>
-      <attribute name='bundle-version' type='Version' value='0.1.0'/>
-    </capability>
-    <capability namespace='osgi.wiring.host'>
-      <attribute name='osgi.wiring.host' value='org.inaetics.ails.api.common.model'/>
-      <attribute name='bundle-version' type='Version' value='0.1.0'/>
-    </capability>
-    <capability namespace='osgi.wiring.package'>
-      <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.common.model'/>
-      <attribute name='version' type='Version' value='0.1.0'/>
-      <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.common.model'/>
-      <attribute name='bundle-version' type='Version' value='0.1.0'/>
-    </capability>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -5137,9 +5277,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='47651a7b39de2aae8e720db503a5a97c86dccbc83bf95e8aefc8e2facbbc250b'/>
+      <attribute name='osgi.content' value='54149b68fe3942ca3bf0000cf02322f0c65562fe48efd803751add68ea22196f'/>
       <attribute name='url' value='org.inaetics.ails.api.client.model.device_data_store-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4700'/>
+      <attribute name='size' type='Long' value='4698'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -5152,13 +5292,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.model.device_data_store'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.model.device_data_store'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -5292,9 +5432,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='8afeff06ef74b576dbc625e6850c6f67d5049fd02d43b48c4dbb61797c39ce84'/>
+      <attribute name='osgi.content' value='e5b3f9222db2194b6ffafe3979af4fdd6061406fe8ab9d45af4b6063880270bd'/>
       <attribute name='url' value='org.inaetics.ails.impl.client.model.device_data_store-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9430'/>
+      <attribute name='size' type='Long' value='9436'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -5307,19 +5447,19 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.model.device_data_store'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.model.device_data_store'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -5451,72 +5591,14 @@
   </resource>
   <resource>
     <capability namespace='osgi.identity'>
-      <attribute name='osgi.identity' value='org.inaetics.ails.impl.client.view'/>
-      <attribute name='type' value='osgi.bundle'/>
-      <attribute name='version' type='Version' value='0.0.0'/>
-    </capability>
-    <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='0513fc6afa0b7d24c5a7eab3ff8457b0a4f3e3fb1904344c97553e90cbb754d5'/>
-      <attribute name='url' value='org.inaetics.ails.impl.client.view-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='8193'/>
-      <attribute name='mime' value='application/vnd.osgi.bundle'/>
-    </capability>
-    <capability namespace='osgi.wiring.bundle'>
-      <attribute name='osgi.wiring.bundle' value='org.inaetics.ails.impl.client.view'/>
-      <attribute name='bundle-version' type='Version' value='0.0.0'/>
-    </capability>
-    <capability namespace='osgi.wiring.host'>
-      <attribute name='osgi.wiring.host' value='org.inaetics.ails.impl.client.view'/>
-      <attribute name='bundle-version' type='Version' value='0.0.0'/>
-    </capability>
-    <capability namespace='osgi.wiring.package'>
-      <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.view'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
-      <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.view'/>
-      <attribute name='bundle-version' type='Version' value='0.0.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
-    </capability>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=4.1.0)(!(version&gt;=5.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.device)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.learning)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.streaming_wifi_profiles)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.users)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.view)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
-    </requirement>
-    <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
-    </requirement>
-  </resource>
-  <resource>
-    <capability namespace='osgi.identity'>
       <attribute name='osgi.identity' value='org.inaetics.ails.impl.server.users.service'/>
       <attribute name='type' value='osgi.bundle'/>
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='4b944c8c9b6b09a7d8934ef08766e26a0289157d63d3738191761c33a18e5ee2'/>
+      <attribute name='osgi.content' value='0af95644a9c83e87f6970de35f43d950126934001a9877dc9ad3ede169b59759'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.users.service-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9752'/>
+      <attribute name='size' type='Long' value='10039'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -5532,7 +5614,7 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.server.users.service'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
@@ -5551,6 +5633,64 @@
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.server.user.service)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.ee'>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.inaetics.ails.impl.client.view'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='0.0.0'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='5724b63295ca224e3aa6951addb7c5cdf40448e83780d83e53f7f19b74b4c95e'/>
+      <attribute name='url' value='org.inaetics.ails.impl.client.view-0.0.0.jar'/>
+      <attribute name='size' type='Long' value='12305'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.inaetics.ails.impl.client.view'/>
+      <attribute name='bundle-version' type='Version' value='0.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.inaetics.ails.impl.client.view'/>
+      <attribute name='bundle-version' type='Version' value='0.0.0'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.view'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
+      <attribute name='bundle-symbolic-name' value='org.inaetics.ails.impl.client.view'/>
+      <attribute name='bundle-version' type='Version' value='0.0.0'/>
+      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.device)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.learning)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.streaming_wifi_profiles)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.controllers.users)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.model.device_data_store)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.client.view)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
@@ -5960,9 +6100,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='e835ac0f9cadfc77aa515810b0576500ec7a747ec2010d26c8f6585e2688c9ce'/>
+      <attribute name='osgi.content' value='21d319290852590dddbad183d6020c81d540aace86ecbdbb341ea1a2a2b6de6c'/>
       <attribute name='url' value='org.inaetics.ails.api.client.view-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='3680'/>
+      <attribute name='size' type='Long' value='3679'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -5975,13 +6115,13 @@
     </capability>
     <capability namespace='osgi.wiring.package'>
       <attribute name='osgi.wiring.package' value='org.inaetics.ails.api.client.view'/>
-      <attribute name='version' type='Version' value='1.0.0'/>
+      <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.client.view'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
       <directive name='uses' value='org.inaetics.ails.api.common.model'/>
     </capability>
     <requirement namespace='osgi.wiring.package'>
-      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
       <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
@@ -6060,9 +6200,9 @@
       <attribute name='version' type='Version' value='0.0.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='73cd1cadfd5bded5c7be442428a61221a543844184afbdfe12f96ac2c8ee97ec'/>
+      <attribute name='osgi.content' value='e94f8d59008c0ef3e2be16f9bcc4be0c0d0b4335312d7e34b9481b65d515047e'/>
       <attribute name='url' value='org.inaetics.ails.impl.server.streaming_profile.miner-0.0.0.jar'/>
-      <attribute name='size' type='Long' value='9501'/>
+      <attribute name='size' type='Long' value='9305'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -6073,6 +6213,9 @@
       <attribute name='osgi.wiring.host' value='org.inaetics.ails.impl.server.streaming_profile.miner'/>
       <attribute name='bundle-version' type='Version' value='0.0.0'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.felix.dm)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))'/>
     </requirement>
@@ -6092,7 +6235,7 @@
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -6102,9 +6245,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='95eb8dca32e8276adee87ec610dc99243c4b568e64bd6ac47e1950d01e8c51f1'/>
+      <attribute name='osgi.content' value='6a059aeb601bf1a1bbd6fca70e04249b7c1d4048f47a674ee776aad26faa84a4'/>
       <attribute name='url' value='org.inaetics.ails.api.server.location.service-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4401'/>
+      <attribute name='size' type='Long' value='4454'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -6120,13 +6263,16 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.location.service'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
-      <directive name='uses' value='org.inaetics.ails.api.common.model'/>
+      <directive name='uses' value='com.google.common.base,org.inaetics.ails.api.common.model'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.wiring.package'>
       <directive name='filter' value='(&amp;(osgi.wiring.package=org.inaetics.ails.api.common.model)(version&gt;=0.1.0)(!(version&gt;=1.0.0)))'/>
     </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>
@@ -6136,9 +6282,9 @@
       <attribute name='version' type='Version' value='0.1.0'/>
     </capability>
     <capability namespace='osgi.content'>
-      <attribute name='osgi.content' value='4ab413ec6a39b8831b1363af13f712fb2ff488c2b8ea6189f090579c29ea3c90'/>
+      <attribute name='osgi.content' value='770f2d474d90616b321f1af8e42739acfa1b55f739eb9ab223b1f239d36be739'/>
       <attribute name='url' value='org.inaetics.ails.api.server.buffer-0.1.0.jar'/>
-      <attribute name='size' type='Long' value='4044'/>
+      <attribute name='size' type='Long' value='4109'/>
       <attribute name='mime' value='application/vnd.osgi.bundle'/>
     </capability>
     <capability namespace='osgi.wiring.bundle'>
@@ -6154,9 +6300,13 @@
       <attribute name='version' type='Version' value='0.1.0'/>
       <attribute name='bundle-symbolic-name' value='org.inaetics.ails.api.server.buffer'/>
       <attribute name='bundle-version' type='Version' value='0.1.0'/>
+      <directive name='uses' value='com.google.common.base'/>
     </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.google.common.base)(version&gt;=18.0.0)(!(version&gt;=19.0.0)))'/>
+    </requirement>
     <requirement namespace='osgi.ee'>
-      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.8))'/>
+      <directive name='filter' value='(&amp;(osgi.ee=JavaSE)(version=1.7))'/>
     </requirement>
   </resource>
   <resource>

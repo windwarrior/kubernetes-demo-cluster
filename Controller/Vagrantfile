@@ -4,7 +4,7 @@
 require 'fileutils'
 Vagrant.require_version ">= 1.6.0"
 
-$type = "nfs"
+$type = "rsync"
 
 $instance_name="controller"
 $instance_ip="172.17.8.20"
@@ -32,6 +32,9 @@ Vagrant.configure("2") do |config|
     config.vm.define vm_name = $instance_name do |config|
         config.vm.hostname = vm_name
         config.vm.network :private_network, ip: $instance_ip, autoconfig: false
+        # config.vm.network :public_network, :ip => "172.17.8.20", :mac => "080027A141BF"
+        # config.vm.network "forwarded_port", guest: 2379, host: 2379
+
 
         config.vm.provider :virtualbox do |virtualbox|
             virtualbox.gui = $virtualbox_gui

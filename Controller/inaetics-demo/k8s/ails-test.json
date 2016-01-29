@@ -2,37 +2,37 @@
   "kind": "ReplicationController",
   "apiVersion": "v1",
   "metadata": {
-    "name": "ails-server",
+    "name": "ails-test",
     "creationTimestamp": null,
     "labels": {
-      "name": "ails-server"
+      "name": "ails-test"
     }
   },
   "spec": {
     "replicas": 1,
     "selector": {
-      "name": "ails-server"
+      "name": "ails-test"
     },
     "template": {
       "metadata": {
         "creationTimestamp": null,
         "labels": {
-          "name": "ails-server"
+          "name": "ails-test"
         }
       },
       "spec": {
         "containers": [
           {
-            "name": "ails-server-container",
+            "name": "ails-test-container",
             "image": "inaetics/felix-agent",
             "args": [
               "/tmp/node-agent.sh",
-              "felix_1"
+              "felix_2"
             ],
             "ports": [
               {
-                "hostPort": 8081,
-                "containerPort": 8081,
+                "hostPort": 8082,
+                "containerPort": 8080,
                 "protocol": "TCP"
               }
             ],
